@@ -8,7 +8,7 @@ SQL. The SQL is executed against the uploaded dataset using DuckDB, and the
 query result is returned to Gemini to generate a grounded explanation.
 
 ## How It Works
-
+```text
 CSV upload
     ↓
 Pandas DataFrame
@@ -24,7 +24,7 @@ DuckDB executes the query
 Query result
     ↓
 Gemini explains the result
-
+```
 ## Features
 
 - Upload and preview CSV datasets
