@@ -1,0 +1,11 @@
+order_id,date,region,customer,product,revenue,cost
+1001,2026-01-05,Auckland,Customer A,Laptop,2200,1500
+1002,2026-01-06,Wellington,Customer B,Monitor,800,500
+1003,2026-01-10,Christchurch,Customer C,Laptop,2100,1500
+1004,2026-02-03,Auckland,Customer D,Keyboard,250,100
+1005,2026-02-12,Wellington,Customer A,Laptop,2300,1500
+1006,2026-02-18,Christchurch,Customer E,Monitor,750,500
+1007,2026-03-04,Auckland,Customer F,Laptop,1800,1500
+1008,2026-03-14,Wellington,Customer G,Keyboard,200,100
+1009,2026-03-20,Christchurch,Customer H,Monitor,600,500
+1010,2026-03-22,Auckland,Customer A,Laptop,1700,1500
