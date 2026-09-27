@@ -1,4 +1,4 @@
-# Project Overview:AI Data Analyst
+# Project Overview:AI Data Analyst Agent
 
 An AI-assisted data analysis application that allows users to upload a CSV
 dataset and ask questions about the data in natural language.
