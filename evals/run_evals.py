@@ -3,6 +3,10 @@
 Created on Sun Sep 27 13:42:04 2026
 
 @author: imara
+Description: Evaluation runner for the AI Data Analyst agent.
+
+Runs a fixed test suite against the agent, evaluates its
+behaviour, and saves versioned evaluation results.
 """
 
 import json
@@ -24,15 +28,14 @@ from agent import ask_agent
 # Evaulation run meta data: change it on every iteration
 
 
-RUN_ID = "RUN_001"
-RUN_DATE = "2026-09-27"
+RUN_ID = "RUN_002"
+RUN_DATE = "2026-09-28"
 
 AGENT_VERSION = "v1"
-PROMPT_VERSION = "v1"
+PROMPT_VERSION = "v2"
 TEST_SUITE_VERSION = "v1"
 
-RUN_NOTES = "Initial baseline evaluation"
-#"Improved handling of unsupported, ambiguous and causal questions"
+RUN_NOTES = "Improved handling of unsupported, ambiguous and causal questions"
 
 print("\n" + "=" * 70)
 print("EVALUATION RUN")
@@ -365,12 +368,7 @@ for test in tests:
             "status": status,
             "reason": reason,
             "answer": answer,
-            "sql": sql,
-            "query_result": (
-            result.to_json(orient="records")
-            if result is not None
-            else None
-        )
+            "sql": sql
         }
     )
 

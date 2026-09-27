@@ -3,7 +3,10 @@
 
 
 @author: imara
-Description:Application front end
+Description: Streamlit interface for the AI Data Analyst application.
+
+Handles CSV upload, data preview, interactive visualisation,
+and natural-language analysis through the AI agent.
 """
 
 import streamlit as st
@@ -16,7 +19,7 @@ from agent import ask_agent
 # Page config
 
 st.set_page_config(
-    page_title="AI Data Analyst",
+    page_title="AI Assisted Data Analyst",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -24,7 +27,7 @@ st.set_page_config(
 
 
 # Add title 
-st.title("AI Data Analyst")
+st.title("AI Assisted Data Analyst")
 
 st.write(
     "Upload a CSV file to explore your data, uncover insights, and get answers from an AI-powered analyst."

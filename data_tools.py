@@ -3,7 +3,10 @@
 Created on Fri Sep 25 22:08:03 2026
 
 @author: imara
-Description:
+Description: Data analysis tools used by the AI agent.
+
+Provides safe, read-only SQL execution against Pandas
+DataFrames using DuckDB.
 """
 
 import duckdb

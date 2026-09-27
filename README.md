@@ -209,3 +209,18 @@ The baseline identified three improvement areas:
 1. Detect unsupported questions before calling SQL.
 2. Ask for clarification when the user's metric is ambiguous.
 3. Distinguish descriptive findings from causal explanations.
+<<<<<<< HEAD
+=======
+
+## Demo
+### Application Interface
+![Main Application Interface](assets/interface.png)
+### Data Preview
+
+![Data Preview](assets/datapreview.png)
+
+### Interactive Dashboard
+
+![Dashboard](assets/dashboard.png)
+
+>>>>>>> fc52395 (Update documentation and app)
