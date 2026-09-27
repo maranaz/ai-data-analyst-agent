@@ -1,3 +1,4 @@
+
 # Project Overview:AI Data Analyst Agent
 
 An AI-assisted data analysis application that allows users to upload a CSV
@@ -209,8 +210,6 @@ The baseline identified three improvement areas:
 1. Detect unsupported questions before calling SQL.
 2. Ask for clarification when the user's metric is ambiguous.
 3. Distinguish descriptive findings from causal explanations.
-<<<<<<< HEAD
-=======
 
 ## Demo
 ### Application Interface
@@ -223,4 +222,3 @@ The baseline identified three improvement areas:
 
 ![Dashboard](assets/dashboard.png)
 
->>>>>>> fc52395 (Update documentation and app)
