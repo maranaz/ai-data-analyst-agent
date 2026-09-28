@@ -222,3 +222,6 @@ The baseline identified three improvement areas:
 
 ![Dashboard](assets/dashboard.png)
 
+### AI Analyst
+
+![AI Analyst](assets/aianalyst.png)
